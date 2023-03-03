@@ -1,5 +1,0 @@
-#@data/values
----
-registry:
-  server: gcr.io
-  repository: my-repo

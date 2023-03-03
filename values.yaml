@@ -7,3 +7,10 @@ scanning:
   source:
     policy: scan-policy
     template: blob-source-scan-template
+  image:
+    policy: scan-policy
+    template: image-source-scan-template
+
+registry:
+  server: gcr.io
+  repository: ship-interfaces-dev/custom-supply-chain

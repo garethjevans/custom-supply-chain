@@ -138,7 +138,7 @@ spec:
   - name: app-config
     templateRef:
       kind: ClusterConfigTemplate
-      name: custom
+      name: config-template
     configs:
       - resource: config-provider
         name: config
