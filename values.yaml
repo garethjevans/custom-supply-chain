@@ -1,0 +1,9 @@
+---
+service_account: default
+
+git_implementation: go-git
+
+scanning:
+  source:
+    policy: scan-policy
+    template: blob-source-scan-template
