@@ -162,7 +162,7 @@ spec:
   - name: config-writer
     templateRef:
       kind: ClusterTemplate
-      name: config-writer-and-pull-requester-template
+      name: config-writer-template
     params:
       - name: serviceAccount
         default: #@ data.values.service_account
