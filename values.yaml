@@ -9,7 +9,7 @@ scanning:
     template: blob-source-scan-template
   image:
     policy: scan-policy
-    template: image-source-scan-template
+    template: private-image-scan-template
 
 registry:
   server: gcr.io
